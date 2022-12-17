@@ -1,0 +1,21 @@
+body{
+    background: black;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+.box{
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 20px;
+}
+.class{
+    background: red;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
